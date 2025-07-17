@@ -695,7 +695,7 @@ const Dashboard = () => {
                         <td>
                           {p.productos.map((prod, i) => (
                             <div key={i}>
-                              #{prod.idProducto} x{prod.cantidad} @{" "}
+                              idProducto: {prod.idProducto}| Cantidad: {prod.cantidad}| Precio.Unitario{" "}
                               {prod.precioUnitario}
                             </div>
                           ))}
